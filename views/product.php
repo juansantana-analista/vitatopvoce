@@ -16,7 +16,7 @@
                 <div class="col-lg-6">
                     <div class="product-gallery">
                         <div class="main-image">
-                            <img src="<?= htmlspecialchars($produto['foto']) ?>" 
+                            <img src="https://vitatop.tecskill.com.br/<?= htmlspecialchars($produto['foto']) ?>" 
                                  alt="<?= htmlspecialchars($produto['nome']) ?>" 
                                  class="img-fluid product-main-image"
                                  id="mainProductImage"

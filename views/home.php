@@ -11,8 +11,8 @@
                                 <span class="brand-name"><?= Config::SITE_NAME ?></span>
                             </h1>
                             <h2 class="hero-subtitle">
-                                SUPLEMENTOS DE
-                                <span class="highlight">ALTA PERFORMANCE</span>
+                                SUPLEMENTOS
+                                <span class="highlight">100% NATURAIS</span>
                             </h2>
                             <p class="hero-description">
                                 Com resultados visíveis e comprovados
@@ -99,7 +99,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                                 <div class="product-card">
                                     <div class="product-image-wrapper">
-                                        <img src="<?= htmlspecialchars($produto['foto']) ?>" 
+                                        <img src="https://vitatop.tecskill.com.br/<?= htmlspecialchars($produto['foto']) ?>" 
                                              alt="<?= htmlspecialchars($produto['nome']) ?>" 
                                              class="product-image"
                                              onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgZmlsbD0iI2Y4ZjlmYSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM2NjY2NjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5Qcm9kdXRvPC90ZXh0Pjwvc3ZnPg=='">
