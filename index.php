@@ -1,5 +1,7 @@
 <?php
-// ===== index.php (ARQUIVO PRINCIPAL) =====
+// ===== CORREÇÃO PARA index.php =====
+// Substitua o arquivo index.php existente por esta versão corrigida
+
 // Configuração de erro e sessão
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -64,7 +66,11 @@ try {
             
         case 'OrderController':
             $controller = new OrderController();
-            $controller->checkout();
+            if ($action === 'checkout') {
+                $controller->checkout();
+            } else {
+                $controller->checkout(); // Padrão é sempre checkout
+            }
             break;
             
         default:
